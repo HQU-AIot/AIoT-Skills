@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "organization": "HQU-AIoT",
+  "repository": "https://github.com/HQU-AIoT/AIoT-Skills",
+  "categories": [
+    "嵌入式开发",
+    "硬件与 PCB",
+    "通信与物联网",
+    "AI 视觉与算法",
+    "机械与结构",
+    "协会管理与文档",
+    "通用效率工具"
+  ],
+  "skills": []
+}
