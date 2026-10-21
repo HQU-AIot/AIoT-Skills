@@ -1,0 +1,93 @@
+name: Skill 收录申请
+description: 申请将协会成员制作的 Skill 加入 AIoT-Skills 索引
+title: "[Skill] "
+labels:
+  - skill-submission
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请先完成仓库自检。不要在 Issue 中填写 Token、密码、Cookie 或其他敏感信息。
+  - type: input
+    id: repository
+    attributes:
+      label: Skill 仓库地址
+      placeholder: https://github.com/HQU-AIoT/skill-example
+    validations:
+      required: true
+  - type: input
+    id: author
+    attributes:
+      label: 作者或维护者
+      placeholder: GitHub 用户名
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: 功能简介
+      description: 用简短文字说明它解决什么问题、何时使用。
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: 分类
+      options:
+        - 嵌入式开发
+        - 硬件与 PCB
+        - 通信与物联网
+        - AI 视觉与算法
+        - 机械与结构
+        - 协会管理与文档
+        - 通用效率工具
+    validations:
+      required: true
+  - type: input
+    id: platforms
+    attributes:
+      label: 适用平台
+      placeholder: Codex、Claude Code 或其他
+    validations:
+      required: true
+  - type: input
+    id: license
+    attributes:
+      label: 开源许可证
+      placeholder: MIT
+    validations:
+      required: true
+  - type: dropdown
+    id: scripts
+    attributes:
+      label: 是否包含可执行脚本
+      options:
+        - 不包含
+        - 包含，已在 README 中说明行为
+    validations:
+      required: true
+  - type: textarea
+    id: side_effects
+    attributes:
+      label: 网络访问和文件修改
+      description: 说明网络访问、文件读写、安装软件、外部命令及高风险操作；没有则填写“无”。
+    validations:
+      required: true
+  - type: textarea
+    id: test
+    attributes:
+      label: 自测结果
+      description: 说明测试环境、测试任务和结果。
+    validations:
+      required: true
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: 提交确认
+      options:
+        - label: 仓库已公开，且包含 SKILL.md、README.md 和 LICENSE。
+          required: true
+        - label: 已移除 Token、密码、Cookie、个人信息和无权公开的内容。
+          required: true
+        - label: 已阅读本仓库的贡献指南和安全说明。
+          required: true
