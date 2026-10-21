@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 普通使用问题
+    url: https://github.com/HQU-AIoT/AIoT-Skills/discussions
+    about: 非收录申请的问题建议在 Discussions 中交流
