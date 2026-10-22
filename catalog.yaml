@@ -11,5 +11,21 @@
     "协会管理与文档",
     "通用效率工具"
   ],
-  "skills": []
+  "skills": [
+    {
+      "name": "invoice-reimbursement",
+      "repository": "https://github.com/HQU-AIot/skill-invoice-reimbursement",
+      "description": "中文电子发票报销整理：解析 PDF/OFD/XML/图片发票，六项合规校验，MD5/发票号去重，发票/订单/支付三方匹配，连续编号、财务报表、核对报告、扁平交付夹与终审。",
+      "author": "glong888",
+      "category": "通用效率工具",
+      "platforms": [
+        "ZCode",
+        "Claude Code",
+        "Codex"
+      ],
+      "status": "usable",
+      "license": "MIT",
+      "updated": "2026-10-22"
+    }
+  ]
 }

@@ -16,7 +16,9 @@
 
 ## Skill 索引
 
-目前暂无已收录 Skill。欢迎协会成员提交第一个作品。
+| Skill | 说明 | 分类 | 平台 | 状态 | 作者 | 许可证 | 更新 |
+|---|---|---|---|---|---|---|---|
+| [`invoice-reimbursement`](https://github.com/HQU-AIot/skill-invoice-reimbursement) | 中文电子发票报销整理：解析、校验、去重、三方匹配、报表、交付与终审 | 通用效率工具 | ZCode / Claude Code / Codex | 可用 | glong888 | MIT | 2026-10-22 |
 
 ### 分类
 
